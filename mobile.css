@@ -1,6 +1,10 @@
 /* FOR MOBILE */
 
-@media screen and (min-width: 600px) and (max-width: 912px) {
+@media screen and (min-width: 280px) and (max-width: 912px) {
+    * {
+        overflow-x: hidden;
+    }
+
     .content h1 {
         /* font-size: 20px;
         height: 24px; */
@@ -666,6 +670,7 @@
     .box-two {
         width: 100%;
     }
+
 }
 
 @media screen and (width: 912px) {
@@ -678,4 +683,8 @@
     .items img {
         width: 24.3em;
     }
+}
+
+nav {
+    overflow: visible;
 }
